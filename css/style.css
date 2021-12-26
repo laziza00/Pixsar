@@ -32,9 +32,7 @@ body {
 .site-nav{
     margin-right: 24px;
 }
-/* .nav-list:active{
-    background-color: rgb(46, 42, 42);
-} */
+
 .nav-item{
     outline: none;
 }
@@ -94,7 +92,9 @@ body {
     font-size: 16px;
 }
 .hero-title{
+    font-weight: bold;
     font-size: 30px;
+    line-height: 130%;
 }
 .title{
     font-weight: bold;
@@ -107,6 +107,9 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;  
+}
+.hero-text{
+    margin-bottom: 16px;
 }
 
 .style-none{
@@ -293,7 +296,9 @@ body {
 }
 /* I finished work-section */
 
-
+.link-hover:hover{
+    background-color: #76d8f8;
+}
 
 
 
@@ -330,4 +335,101 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #000000;
+    border: none;
+    outline: none;
+}
+
+
+
+#footer-section{
+    background-color: #000;
+}
+.footer-inner{
+    padding: 56px 0 56px 100px;
+}
+.copyright-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #fff;
+}
+.copy-text{
+    font-style: normal;
+    color: #fff;
+    width: 320px;
+}
+.foot-link{
+    color: #fff;
+    text-decoration: none;
+}
+.copyright{
+    margin-right: 150px;
+}
+.site-page{
+    margin-right: 100px;
+}
+.site-item{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+}
+.footer-list{
+    display: flex;
+}
+.tg-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.face-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-link:hover{
+    color: #2d2599;
+    border-bottom: 2px solid #2d2599;
+}
+.tg-icon:before{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 24px;
+    background-image: url('../images/telegram.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+.face-icon::before{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 24px;
+    background-image: url('../images/facebook.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+
+}
+.insta-icon:before{
+    content: '';
+    display: block;
+    width: 22px;
+    height: 24px;
+    background-image: url('../images/instagram.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+  
+
 }
