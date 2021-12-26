@@ -14,39 +14,301 @@ body {
 } 
   
 .container {
-    width: 1100px;
-    padding: 0 100px;
-    margin: auto;
+    width: 1150px;
+    padding: 0 25px;
+    margin: 0 auto;
 }
-  
+
+
+
+/* I started header */
+
+.header-inner{
+    padding: 18px 0;
+}
+.header-logo{
+    margin-right: 330px;
+}
+.site-nav{
+    margin-right: 24px;
+}
+
+.nav-item{
+    outline: none;
+}
+.nav-item:not(:last-child){
+    margin-right: 32px;
+}
+.nav-item:hover{
+    /* border: 2px solid  #00bafc;
+    transition: all 0.5s ease; */
+}
+.nav-link{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.link{
+    background: #00bafc;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: none;
+}
+.pixsar-num-link{
+    font-size: 15px;
+}
+.pixsar-num-link:hover{
+    border: 2px solid rgb(156, 165, 30) ;
+    background-color: #fff;
+    color: #00bafc;
+    transition: all 0.5s ease;
+    outline-style: initial;
+}
+.header-none{
+    display: none;
+}
 
 
 
 
+/* I started hero-section */
 
+.hero-inner{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero-info{
+    width: 470px;
+}
+.hero-link{
+    font-size: 16px;
+}
+.hero-title{
+    font-size: 30px;
+}
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+}
+.text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;  
+}
 
 .style-none{
     list-style-type: none;
 }
 .text-none{
     text-decoration: none;
+}
+
+
+/* I finished hero-section */
+
+
+
+
+
+/* service-section I started */
+.service-inner{
+    padding: 56px 0;
+}
+.service-list{
+    margin-bottom: 40px;
+}
+.service-title{
+    text-align: center;
+}
+.service-text{
+    text-align: center;
+    width: 719px;
+    margin: 0 auto;
+}
+
+.margin-big{
+    margin-bottom: 16px;
+}
+.margin-little{
+    margin-bottom: 8px;
+}
+.service-item{
+    background: #fff;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 24px 59px;
+    margin-right: 30px;
+    margin-bottom: 48px;
+}
+.web-box:after{
+    content: '';
+    display: block;
+    width: 203px;
+    height: 130px;
+    background-image: url('../images/website-illustration.svg');
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.tg-box:after{
+    width: 203px;
+    height: 130px;
+    background-image: url('../images/bot-illustration.svg');
+}
+.smm-box:after{
+    width: 203px;
+    height: 130px;
+    background-image: url('../images/smm-illustration.svg');
+}
+.grafik-box:after{
+    width: 203px;
+    height: 130px;
+    background-image: url('../images/design-illustration.svg');
+}
+.crm-box:after{
+    width: 203px;
+    height: 130px;
+    background-image: url('../images/crm-illustration.svg');
+}
+.web-title{
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+}
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.web-text{
+    text-align: center;
+}
+.service-link-box{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.service-link{
+    margin-right: 16px;
+}
+.service-link-serv{
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+}
+
+/* I finished service-section */
+
+
+
+
+/* I started work-section */
+
+.work-inner{
+    padding: 56px 0;
+}
+.work-text{
+    margin-bottom: 24px;
+}
+
+.student{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 278px;
+    background-image: url('../images/student-img.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+}
+.offer:after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 225px;
+    background-image: url('../images/offer.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+}
+.time:after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 259px;
+    background-image: url('../images/time.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+}
+.quality:after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 171px;
+    background-image: url('../images/quality.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+}
+.support{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 232px;
+    background-image: url('../images/support.svg');
+    background-position:0 0;
+    background-repeat: no-repeat;
+}
+.student-title{
+    align-items: center;
+    font-size: 20px;
+}
+.student-info{
+    padding: 75px 0;
+}
+
+.work-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.work-item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+.work-link-box{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+/* I finished work-section */
+
+
+
+
+
+/* I started order-section */
+
+#order-section{
+    background-color: #00bafc;
+}
+
+.order-inner{
+    padding-top: 56px;
+    padding-bottom: 64px;
+}
+.order-title{
+    color: #fff;
+}
+.order-text{
+    color: #fff;
+    margin-bottom: 24px;
 }
