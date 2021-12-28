@@ -23,6 +23,9 @@ body {
 
 /* I started header */
 
+.site-header{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2); 
+}
 .header-inner{
     padding: 18px 0;
 }
@@ -165,6 +168,12 @@ body {
     margin-right: 45px;
     margin-bottom: 48px;
 }
+.service-item:active{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2); 
+}
+.service-item:hover{
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+}
 .web-box::before{
     content: '';
     display: block;
@@ -217,7 +226,7 @@ body {
     color: #00BAFC;
 }
 .service-link-serv:hover{
-    background-color: #00BAFC;
+    background-color: #00bafc;
     color: #fff;
 }
 
@@ -305,7 +314,7 @@ body {
 /* I finished work-section */
 
 .link-hover:hover{
-    background-color:  #57a5c2;
+    background-color:  #6ec9eb;
 }
 .link-hover:active{
     background-color: #76d8f8;
