@@ -37,16 +37,17 @@ body {
 }
 
 .nav-item{
-    outline: none;
+    border-bottom: 1px solid transparent;
 }
-.nav-item:not(:last-child){
-    margin-right: 32px;
-}
+
 .nav-item:hover{
     border-bottom: 1px solid #353030;
 }
-.site-nav:active{
-    background-color:  #353030;
+.nav-item:active{
+    background-color:  #494343;
+}
+.nav-item:not(:last-child){
+    margin-right: 32px;
 }
 
 .nav-link{
@@ -380,7 +381,7 @@ body {
     background-color: #000;
 }
 .footer-inner{
-    padding: 56px 0 56px 100px;
+    padding: 56px 0;
 }
 .copyright-text{
     font-style: normal;
@@ -399,10 +400,10 @@ body {
     text-decoration: none;
 }
 .copyright{
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .site-page{
-    margin-right: 100px;
+    margin-right: 87px;
 }
 .site-item{
     display: flex;
@@ -464,6 +465,4 @@ body {
     background-position:0 0;
     background-repeat: no-repeat;
     margin-right: 8px;
-  
-
 }
