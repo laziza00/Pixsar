@@ -30,7 +30,7 @@ body {
     padding: 18px 0;
 }
 .header-logo{
-    margin-right: 330px;
+    margin-right: 335px;
 }
 .site-nav{
     margin-right: 24px;
@@ -314,7 +314,7 @@ body {
 /* I finished work-section */
 
 .link-hover:hover{
-    background-color:  #6ec9eb;
+    background-color:  #71bfdb;
 }
 .link-hover:active{
     background-color: #76d8f8;
